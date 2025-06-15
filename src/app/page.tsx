@@ -4,7 +4,7 @@ import Main from '../components/layout/Main';
 
 export default function page() {
   return (
-    <main className='flex min-h-screen bg-gray-800'>
+    <main className='flex h-screen bg-gray-800 overflow-hidden'>
       <Sidebar />
       <Main />
     </main>

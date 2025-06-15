@@ -17,7 +17,7 @@ import FreeCredit from '../FreeCredit';
 
 export default function Sidebar() {
   return (
-    <div className='flex flex-col w-[280px] min-h-screen justify-between bg-gray-800'>
+    <div className='flex flex-col w-[280px] h-screen justify-between bg-gray-800 overflow-hidden'>
       {/* Top Section */}
       <div className='flex flex-col'>
         {/* Navigation Header */}

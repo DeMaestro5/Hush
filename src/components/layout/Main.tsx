@@ -6,7 +6,6 @@ import {
   PhotoIcon,
 } from '@heroicons/react/24/outline';
 import Gamification from '../Gamification';
-import Card from '../Card';
 import CardGrid from '../CardGrid';
 
 export default function Main() {
@@ -22,7 +21,7 @@ export default function Main() {
   ));
 
   return (
-    <div className='w-full h-[948px] bg-gray-900 rounded-tl-4xl mt-2'>
+    <div className='w-full h-screen bg-gray-900 rounded-tl-4xl mt-2 overflow-y-auto '>
       <div className='w-full p-6 space-y-8'>
         {/* Header Section */}
         <div className='flex justify-between items-center'>
