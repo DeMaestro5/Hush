@@ -63,7 +63,7 @@ export default function Main() {
         <div className='flex gap-6 items-center'>{circles}</div>
         <Gamification />
         <div>
-          <h3 className='font-semibold'>Save for later</h3>
+          <h3 className='font-semibold'>Saved for later</h3>
           <p className='text-sm text-gray-500'>
             Quickly go through the summary of all your saved online contents
           </p>
